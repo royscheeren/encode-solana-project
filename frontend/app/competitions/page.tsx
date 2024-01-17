@@ -1,7 +1,9 @@
-import { Hero } from '../modules/Hero'
 import { NavBar } from '../modules/NavBar'
+import { ProgramData } from '../modules/ProgramData'
 
 export default function Home() {
+
+
   return (
     <main className="bg-hero bg-cover flex min-h-screen flex-col items-center">
       <NavBar />
@@ -10,7 +12,7 @@ export default function Home() {
           Competitions
         </h1>
         <p className="font-light text-2xl">
-          Show Cards Overview
+          <ProgramData />
         </p>
       </div>
     </main>
